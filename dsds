@@ -1,0 +1,8 @@
+</head>
+<body>
+    <div class="left2">
+        <h2 class="expires-title">Expiration Date</h2>
+        <p class="expires-datetime">This offer expires on: <span id="expiration-date">October 31, 2024, 11:59 PM</span></p>
+    </div>
+</body>
+</html>
