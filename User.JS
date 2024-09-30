@@ -1,6 +1,6 @@
 function getUserCredentials() {
-    var correctUsername = « ZED7z»; // اسم المستخدم الصحيح
-    var correctPassword = « +216»; // كلمة المرور الصحيحة
+    var correctUsername = "1DAYfree"; // اسم المستخدم الصحيح
+    var correctPassword = "1DAYfree"; // كلمة المرور الصحيحة
 
     while (true) {
         var username = prompt(« 𝘌𝘯𝘵𝘦𝘳 𝘜𝘴𝘦𝘳𝘯𝘢𝘮𝘦 : »);
