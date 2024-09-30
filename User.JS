@@ -1,20 +1,20 @@
 function getUserCredentials() {
     var correctUsername = "1DAYfree"; // اسم المستخدم الصحيح
-    var correctPassword = "1DAYfree"; // كلمة المرور الصحيحة
+    var correctPassword = "1DAYfree";  // كلمة المرور الصحيحة
 
     while (true) {
-        var username = prompt(« 𝘌𝘯𝘵𝘦𝘳 𝘜𝘴𝘦𝘳𝘯𝘢𝘮𝘦 : »);
-        var password = prompt(« 𝘌𝘯𝘵𝘦𝘳 𝘗𝘢𝘴𝘴𝘸𝘰𝘳𝘥 : »);
+        var username = prompt('ENTER USERNAME:');
+        var password = prompt('ENTER PASSWORD');
 
         if (username && password) {
             if (username === correctUsername && password === correctPassword) {
-                alert(« Walcom To  ZED7z Panel ⇰ (1 DAY ) « );
-                break; // الخروج من الحلقة إذا كانت المدخلات صحيحة
+                alert('welcome to panel SLECET7z (1DAY)');
+                break; // الخروج من الحلقة إذا كانت البيانات صحيحة
             } else {
-                alert(« The Passwoord Or Username is Error »);
+                alert('PASSWORD OR USERNAME INCORRECT');
             }
         } else {
-            alert(« You Didn’t Enter Passwoord Or Username « );
+            alert('YOU DIDNT ENTER passwoord OR username');
         }
     }
 }
