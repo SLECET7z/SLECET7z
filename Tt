@@ -1,0 +1,15 @@
+function validateCredentials() {
+        var correctUsername = '1'; // ضع اسم المستخدم الصحيح
+        var correctPassword = '1';  // ضع كلمة المرور الصحيحة
+
+        var enteredUsername = document.getElementById('username').value;
+        var enteredPassword = document.getElementById('password').value;
+        var errorMessage = document.getElementById('error-message'); // رسالة الخطأ
+
+        if (enteredUsername === correctUsername && enteredPassword === correctPassword) {
+            alert('WELCOME TO THE PANEL');
+            errorMessage.style.display = 'none'; // إخفاء رسالة الخطأ إذا كانت البيانات صحيحة
+        } else {
+            errorMessage.style.display = 'block'; // عرض رسالة الخطأ إذا كانت البيانات خاطئة
+        }
+    }
