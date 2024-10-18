@@ -1,7 +1,7 @@
 loopy() 
  function loopy() { 
- var sWord ="mrwanxX" 
- while (sWord != "ZED7z") {// Pass
+ var sWord ="ZED7z" 
+ while (sWord != "1") {// Pass
  sWord = prompt("𝘌𝘯𝘵𝘦𝘳 𝘛𝘩𝘦 𝘒𝘦𝘺 :")  
  } 
  
